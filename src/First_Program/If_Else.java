@@ -8,9 +8,9 @@ public class If_Else {
 
         // Salary 
         
-        Scanner BasicPay = new Scanner(System.in);
+        Scanner Input = new Scanner(System.in);
         // System.out.print("Please enter your salary => ");
-        // int Salary = BasicPay.nextInt();
+        // int Salary = Input.nextInt();
 
         // if (Salary > 25000){
         //     Salary = Salary + 3000;
@@ -24,8 +24,8 @@ public class If_Else {
 
         // System.out.print(Salary);
 
-        System.out.print("Please write a number => ");
-        int number = BasicPay.nextInt();
+        // System.out.print("Please write a number => ");
+        // int number = Input.nextInt();
 
         //Positive or Negative Number
 
@@ -41,12 +41,56 @@ public class If_Else {
 
         //Even or Odd
 
-        if(number%2 == 0){
-            System.out.print(number + " is Even");
+        // if(number%2 == 0){
+        //     System.out.print(number + " is Even");
+        // }
+        // else{
+        //     System.out.println(number + " is Odd");
+        // }
+
+
+
+        //-- Eligible to Vote
+        
+        // System.err.print("Please Enter Your Age :- ");
+        // int age = Input.nextInt();
+
+        // if (age >= 18){
+        //     System.out.println("Eligible to vote");
+        // }
+        // else{
+        //     System.out.println("Not eligible");
+        // }
+
+        //-- Greater Number - Two numbers comparision
+
+        // System.out.print("Please write a Second number => ");
+        // int secondnumber = Input.nextInt();
+
+        // if (number > secondnumber ){
+        //     System.out.println("First number is greater than second number");
+        // }
+        // else if (number == secondnumber){
+        //     System.out.println("Both numbers are equal");
+        // }
+        // else{
+        //     System.out.println("Second number is greater than first number");
+        // }
+
+        //-- Pass or Fail - If marks are 40 or above, print "Pass", otherwise "Fail"
+
+        System.out.print("Please enter your marks - ");
+        float marks = Input.nextFloat();
+
+        if (marks >= 40){
+            System.out.println("Pass :- " + marks);
         }
         else{
-            System.out.println(number + " is Odd");
+            System.out.println("Fail :- " + marks);
         }
+
+        
+
 
 
 
