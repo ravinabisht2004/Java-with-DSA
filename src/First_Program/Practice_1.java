@@ -10,7 +10,7 @@ public class Practice_1 {
 
         Scanner input = new Scanner(System.in);
 
-<<<<<<< HEAD
+
         // System.out.print("Enter First Number => ");
         // int num1 = input.nextInt();
 
@@ -31,25 +31,7 @@ public class Practice_1 {
 
         // System.out.println(max);
 =======
-        System.out.print("Enter First Number => ");
-        int num1 = input.nextInt();
-
-        System.out.print("Enter Second Number => ");
-        int num2 = input.nextInt();
-
-        System.out.print("Enter Third Number => ");
-        int num3 = input.nextInt();
-
-        int max = num1;
-
-        if(num2 > max){
-            max = num2;
-        }
-        if(num3 > max){
-            max = num3;
-        }
-
-        System.out.println(max);
+       
 
     }
     
