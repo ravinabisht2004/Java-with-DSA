@@ -50,7 +50,7 @@ public class Practice_1 {
         }
 
         System.out.println(max);
->>>>>>> 4534f4b4d0de872db0f499afcb5895d8902aad6d
+
     }
     
 }
