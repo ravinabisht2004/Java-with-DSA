@@ -68,27 +68,42 @@ public class Practice_1 {
 
         //---> Counting Occurences
 
-        System.out.print("Enter the number => ");    
-        int num = input.nextInt();
+        // System.out.print("Enter the number => ");    
+        // int num = input.nextInt();
 
-        System.out.print("Enter the occure number => ");
-        int find = input.nextInt();
+        // System.out.print("Enter the occure number => ");
+        // int find = input.nextInt();
 
-        int count = 0;
+        // int count = 0;
+
+        // while (num > 0) {
+        //     int rem = num % 10;
+
+        //     if (rem == find){
+        //         count++;
+        //     }
+
+        //     num = num/10;
+
+        // }
+
+        // System.out.println(count);
+
+
+        //--> Reverse Numbering 
+
+        int num = 12345;
+        int result = 0;
 
         while (num > 0) {
-            int rem = num % 10;
-
-            if (rem == find){
-                count++;
-            }
-
+            int rem = num%10;
             num = num/10;
-
+            result = result*10 + rem;            
         }
 
-        System.out.println(count);
+        System.out.println(result);
 
+        
 
 
 
