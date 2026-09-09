@@ -32,7 +32,7 @@ public class Practice_1 {
 
         // Another Method of Solving This
 
-        int max = Math.max(c, Math.max(a,b));
+        int max = Math.max(num3, Math.max(num1, num2));
         System.out.println(max);
 
        
