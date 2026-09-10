@@ -20,7 +20,7 @@ public class Assignmenrt_1 {
 
          area = pi * (radius * radius);
          System.out.println("Area => " + area);
-         
+
           */
 
 
@@ -76,6 +76,23 @@ public class Assignmenrt_1 {
         int area = (base*height);
 
         System.out.println("Area Of Parallelogram => " + area );*/
+
+        
+        
+        //--> Area Of Rhombus
+
+        System.out.print("length of the first diagonal1 => ");
+        int diagonal1 = input.nextInt();
+
+        System.out.print("length of the first diagonal2 => ");
+        int diagonal2 = input.nextInt();
+
+        int area = (diagonal1 * diagonal2)/2;
+
+        System.out.println("Area Of Rhombus => " + area);
+
+
+
 
 
 
