@@ -81,6 +81,7 @@ public class Assignmenrt_1 {
         
         //--> Area Of Rhombus
 
+       /* 
         System.out.print("length of the first diagonal1 => ");
         int diagonal1 = input.nextInt();
 
@@ -90,6 +91,39 @@ public class Assignmenrt_1 {
         int area = (diagonal1 * diagonal2)/2;
 
         System.out.println("Area Of Rhombus => " + area);
+
+        */
+
+        //--> Area Of Equilateral Triangle
+
+        /*
+        System.out.print("Enter the length => ");
+        double length = input.nextDouble();
+
+        double val = 1.732;
+
+        double area = (val*(length * length))/4;
+
+        System.out.println("Area of Equilateral Triangle => " + area);
+
+         */
+
+        //--> Perimeter Of Circle
+
+        /* 
+        double pi = 3.14;
+
+        System.out.print("Enter the radius => ");
+        double radius = input.nextDouble();
+
+        double cal = 2*pi*radius;
+
+        System.out.println("Perimeter Of Circle => " + cal);
+        */
+
+        
+
+
 
 
 
