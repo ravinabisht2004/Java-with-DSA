@@ -110,7 +110,7 @@ public class Assignmenrt_1 {
 
         //--> Perimeter Of Circle
 
-        /* 
+        
         double pi = 3.14;
 
         System.out.print("Enter the radius => ");
@@ -119,9 +119,9 @@ public class Assignmenrt_1 {
         double cal = 2*pi*radius;
 
         System.out.println("Perimeter Of Circle => " + cal);
-        */
-
         
+
+
 
 
 
