@@ -25,7 +25,7 @@ public class Student_Grade_Calculator {
 
         result = subject1+subject2+subject3+subject4+subject5;
 
-        if(result >= 90 ){
+        if(result >= 90 && subject1 >= 90 && subject2 >= 90 ){
             grade = 'A';
         }
         else if(result>=80){
