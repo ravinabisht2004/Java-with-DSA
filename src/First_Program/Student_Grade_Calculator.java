@@ -12,44 +12,66 @@ public class Student_Grade_Calculator {
 
     System.out.println("Enter marks of 5 subjects: ");
 
-    double subject1 = input.nextDouble();
-    double subject2 = input.nextDouble();
-    double subject3 = input.nextDouble();
-    double subject4 = input.nextDouble();
-    double subject5 = input.nextDouble();
+    
+    // double subject2 = input.nextDouble();
+    // double subject3 = input.nextDouble();
+    // double subject4 = input.nextDouble();
+    // double subject5 = input.nextDouble();
 
-    double result = 0.00;
+    boolean result = true;
+    double totMarks = 0.00;
     char grade = 'A';
-
-    for (int i = 0; i < 5; i++) {
-
-        result = subject1+subject2+subject3+subject4+subject5;
-
-        if(result >= 90){
-            grade = 'A';
-        }
-        else if(result>=80){
-            grade = 'B';
-        }
-         else if(result>=70){
-            grade = 'C';
-        }
-         else if(result>=60){
-            grade = 'D';
-        }
-         else if(result<60){
-            grade = 'F';
-        }
+    double percentage = 0.00;
     
 
-        System.out.println(i);
-        
-        
+    for (int i = 1; i <= 5; i++) {
+
+    System.out.print("Enter marks of subject " + i + " => ");
+    double subject1 = input.nextDouble();
+
+    totMarks = subject1+totMarks;
+                
+    if(subject1 < 33){
+        result = false;           
+    }    
     }
 
-    System.out.println(result);
+    percentage = totMarks/5;
+
+    if(percentage >= 90){
+        grade = 'A';
+    }
+    else if(percentage>=80){
+        grade = 'B';
+    }
+    else if(percentage>=70){
+        grade = 'C';
+    }
+    else if(percentage>=60){
+        grade = 'D';
+    }
+    else{
+        grade = 'F';
+    }
+
+    
+
+    System.out.println("Total Marks = " + totMarks);
     System.out.println("Grade = " + grade);
-    System.out.println("Result = " );
+//  System.out.println("Result = " +  result);
+    
+    System.out.println("Percentage = " + percentage);
+
+       if (result) {
+            System.out.println("Result = Pass");
+        }
+        else {
+            System.out.println("Result = Fail");
+        }
+
+        input.close();
+
+    
 
 
     
