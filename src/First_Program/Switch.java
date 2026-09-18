@@ -11,6 +11,8 @@ public class Switch {
             System.out.print("Please Enter Fruit Name :- ");
             String fruit = input.next();
 
+            
+
             switch (fruit) {
                 case "Mango":
                     System.out.println("King of fruits");
@@ -37,5 +39,7 @@ public class Switch {
                 case "Orange" -> System.out.println("Round fruit");
                 default -> System.out.println("Please enter a valid input");
             }
+
+           
          }
 }
