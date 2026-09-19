@@ -54,7 +54,7 @@ public class SwitchStatement {
         
         //--> Month & Days
 
-        System.out.println("Enter 1 to 12 number: ");    
+        /*System.out.println("Enter 1 to 12 number: ");    
 
         System.out.print("Enter month number: ");    
         int monthNum = input.nextInt();
@@ -74,7 +74,48 @@ public class SwitchStatement {
             case 12 -> System.out.println("Month - December & Days - 31");
             default -> System.out.println("Invalid number. Enter a number from 1 to 12");
             
-        }
+        }*/
+
+         //--ATM Menu
+         
+         System.out.println("Welcome - ATM");
+         System.out.println("1. Check Balance");
+         System.out.println("2. Deposit");
+         System.out.println("3. Withdraw");
+         System.out.println("4. Exit");
+
+         int balance = 5000;
+
+         System.out.print("Enter your choice:");
+         int choice = input.nextInt();
+
+         
+
+
+         switch(choice){
+
+            case 1 -> System.out.println("Balance : " + balance);
+            case 2 -> {
+                    System.out.print("Enter amount:");
+                    int amount = input.nextInt();
+                    System.out.println("Update Balance : " + (balance + amount));
+                    }
+            case 3 -> {
+                System.out.print("Enter amount:");
+                int amount = input.nextInt();
+                if (amount > balance){
+                System.out.println("Insufficient Balance");
+                }
+                else{
+                System.out.println("Update Balance : " + (balance - amount));
+            }}
+            
+            case 4 -> System.out.println("Thank You");
+
+            default -> System.out.println("Invalid Choice");
+
+
+         }
 
     }
     
