@@ -27,7 +27,7 @@ public class SwitchStatement {
 
         //--> Simple Calculator
 
-        System.out.print("Enter the operator => ");
+       /*  System.out.print("Enter the operator => ");
         char operator = input.next().trim().charAt(0);
 
 
@@ -49,7 +49,33 @@ public class SwitchStatement {
         }
     }
     default -> System.out.println("Please enter valid operator");
-}
+}*/
+
+        
+        //--> Month & Days
+
+        System.out.println("Enter 1 to 12 number: ");    
+
+        System.out.print("Enter month number: ");    
+        int monthNum = input.nextInt();
+
+        switch(monthNum){
+            case 1 -> System.out.println("Month - January & Days - 31");
+            case 2 -> System.out.println("Month - February & Days - 28");
+            case 3 -> System.out.println("Month - March & Days - 31");
+            case 4 -> System.out.println("Month - April & Days - 30");
+            case 5 -> System.out.println("Month - May & Days - 31");
+            case 6 -> System.out.println("Month - June & Days - 30");
+            case 7 -> System.out.println("Month - July & Days - 31");
+            case 8 -> System.out.println("Month - August & Days - 31");
+            case 9 -> System.out.println("Month - September & Days - 30");
+            case 10 -> System.out.println("Month - October & Days - 31");
+            case 11 -> System.out.println("Month - November & Days - 30");
+            case 12 -> System.out.println("Month - December & Days - 31");
+            default -> System.out.println("Invalid number. Enter a number from 1 to 12");
+            
+        }
+
     }
     
 }
