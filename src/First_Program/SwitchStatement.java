@@ -139,7 +139,7 @@ public class SwitchStatement {
 
         //-- Student Grade
 
-        System.out.print("Enter grade : ");
+       /*  System.out.print("Enter grade : ");
         char grade = input.next().trim().toUpperCase().charAt(0);
 
         System.out.print("Output : ");
@@ -153,7 +153,67 @@ public class SwitchStatement {
             case 'F' -> System.out.println("Fail");
 
             default -> System.out.println("Invalid Grade");
+        }*/
+
+        //--- Electricity Bill Calculator
+
+        System.out.println("1 -> 0 - 100 units -> 5 per unit");
+        System.out.println("2 -> 101 - 200 units -> 7 per unit");
+        System.out.println("3 -> 201 - 300 units -> 10 per unit");
+        System.out.println("4 -> 300+ units -> 15 per unit");
+
+
+        System.out.print("Enter slab number : ");
+        int slab = input.nextInt();
+
+        System.out.print("Enter units : ");
+        int unit = input.nextInt();
+        int output;
+
+        System.out.print("Output : ");
+
+        switch(slab){
+            case 1 -> {
+                 if (unit >= 0  && unit <= 100){
+                    output = unit * 5;
+                    System.out.println(output);
+                 } else {
+                    System.out.println("Invalid units for slab 1");
+                 }
+            }
+
+            case 2 -> {
+                 if (unit >= 101 && unit <= 200){
+                    output = unit * 7;
+                    System.out.println(output);
+                 }else {
+                    System.out.println("Invalid units for slab 2");
+                 }
+            }
+
+            case 3 -> {
+                 if (unit >= 201 && unit <= 300){
+                    output = unit * 10;
+                    System.out.println(output);
+                 }else {
+                    System.out.println("Invalid units for slab 3");
+                 }
+            }
+
+            case 4 -> {
+                 if (unit > 300){
+                    output = unit * 15;
+                    System.out.println(output);
+                 }else {
+                    System.out.println("Invalid units for slab 4");
+                 }
+
+            }
+
+            default -> System.out.println("Invalid slab");
         }
+
+        
 
 
 
