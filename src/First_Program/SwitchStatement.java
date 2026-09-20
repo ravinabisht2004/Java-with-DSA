@@ -134,6 +134,31 @@ public class SwitchStatement {
 
         }*/
 
+
+
+
+        //-- Student Grade
+
+        System.out.print("Enter grade : ");
+        char grade = input.next().trim().toUpperCase().charAt(0);
+
+        System.out.print("Output : ");
+
+        switch(grade){
+
+            case 'A' -> System.out.println("Excellent");
+            case 'B' -> System.out.println("Very Good");
+            case 'C' -> System.out.println("Good");
+            case 'D' -> System.out.println("Need Improvement");
+            case 'F' -> System.out.println("Fail");
+
+            default -> System.out.println("Invalid Grade");
+        }
+
+
+
+
+
     }
     
 }
