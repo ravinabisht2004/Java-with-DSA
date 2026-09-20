@@ -78,7 +78,7 @@ public class SwitchStatement {
 
          //--ATM Menu
          
-         System.out.println("Welcome - ATM");
+        /*  System.out.println("Welcome - ATM");
          System.out.println("1. Check Balance");
          System.out.println("2. Deposit");
          System.out.println("3. Withdraw");
@@ -115,7 +115,24 @@ public class SwitchStatement {
             default -> System.out.println("Invalid Choice");
 
 
-         }
+         }*/
+
+        //--- Traffic Light
+
+       /*  System.out.print("Enter traffic light: ");
+
+        String light = input.next().toLowerCase();
+        System.out.print("Output :- ");
+
+        switch(light){
+            
+            case "red"      -> System.out.println("Stop");
+            case "yellow"   -> System.out.println("Wait");
+            case "green"    -> System.out.println("Go");
+            
+            default         -> System.out.println("Invalid traffic light");
+
+        }*/
 
     }
     
