@@ -247,7 +247,57 @@ public class SwitchStatement {
 
         //---> Food Order 🍔
 
+      /*   System.out.println("1 -> Burger ->  120");
+        System.out.println("2 -> Pizza  ->  250");
+        System.out.println("3 -> Sandwich -> 100");
+        System.out.println("4 -> Pasta -> 180");
+
         
+        System.out.print("Enter quantity : ");
+        int qty = input.nextInt();
+
+        
+
+        if(qty <= 0){
+            System.out.println("Invalid quantity");
+        }else{
+            System.out.print("Enter food item : ");
+            int menuNum = input.nextInt();
+            
+
+            switch(menuNum){
+
+            case 1 -> System.out.println("Total Bill : " + (120 * qty));
+            case 2 -> System.out.println("Total Bill : " + (250 * qty));
+            case 3 -> System.out.println("Total Bill : " + (100 * qty));
+            case 4 -> System.out.println("Total Bill : " + (180 * qty));
+
+            default -> System.out.println("Invalid food item");
+            }
+        }*/
+
+
+        //--> Character Type Checker
+
+        System.out.print("Enter a character : ");
+
+        char charcter = input.next().trim().toLowerCase().charAt(0);
+
+        switch(charcter){
+
+            case 'a','e','i','o','u' -> System.out.println("Output : " + "Vowel");
+            case 'b','c','d','f','g' -> System.out.println("Output : " +"Common Consonant");
+            case '0', '1', '2', '3','4','5','6','7','8','9' -> System.out.println("Output : " + "Digit");
+
+            default -> System.out.println("Output : " + "Other Character");
+
+          
+        }
+
+
+
+
+
 
 
         
