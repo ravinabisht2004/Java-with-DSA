@@ -157,7 +157,7 @@ public class SwitchStatement {
 
         //--- Electricity Bill Calculator
 
-        System.out.println("1 -> 0 - 100 units -> 5 per unit");
+        /*System.out.println("1 -> 0 - 100 units -> 5 per unit");
         System.out.println("2 -> 101 - 200 units -> 7 per unit");
         System.out.println("3 -> 201 - 300 units -> 10 per unit");
         System.out.println("4 -> 300+ units -> 15 per unit");
@@ -211,7 +211,44 @@ public class SwitchStatement {
             }
 
             default -> System.out.println("Invalid slab");
+        }*/
+
+
+        //--> Vehicle Type & Fare
+
+        /*System.out.println("1 -> Bike -> 10/km");
+        System.out.println("2 -> Auto -> 15/km");
+        System.out.println("3 -> Car  -> 25/km");
+        System.out.println("4 -> SUV  -> 35/km");
+
+        System.out.print("Enter vehicle type : ");
+        int vehicelType = input.nextInt();
+
+        System.out.print("Enter distance : ");
+        int distance = input.nextInt();
+
+        System.out.print("Total Fare : ");
+
+        if(distance <= 0){
+            System.out.println("Invalid Distance");
+        }else{
+
+        switch(vehicelType){
+
+            case 1 -> System.out.println(10 * distance);
+            case 2 -> System.out.println(15 * distance);
+            case 3 -> System.out.println(25 * distance);
+            case 4 -> System.out.println(35 * distance);
+
+            default -> System.out.println("Invalid vehicle type");
+
         }
+        }*/
+
+        //---> Food Order 🍔
+
+        
+
 
         
 
