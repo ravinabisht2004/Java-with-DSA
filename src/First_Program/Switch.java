@@ -7,7 +7,7 @@ public class Switch {
          public static void main(String[] args) {
             
             Scanner input = new Scanner(System.in);
-
+            /*
             System.out.print("Please Enter Fruit Name :- ");
             String fruit = input.next();
 
@@ -39,6 +39,33 @@ public class Switch {
                 case "Orange" -> System.out.println("Round fruit");
                 default -> System.out.println("Please enter a valid input");
             }
+
+             */
+
+            //---> Weekdays or Weekend 
+            System.out.print("Enter the day number : ");
+            int day = input.nextInt();
+
+            switch (day) {
+                case 1:
+                case 2: 
+                case 3: 
+                case 4: 
+                case 5: 
+                System.out.println("Weekdays");  
+                break;
+
+                case 6: 
+                case 7: 
+                System.out.println("Weekend");
+                break;
+                    
+            
+                default:
+                    System.out.println("Invalid Day");
+                    break;
+            }
+
 
            
          }
