@@ -10,6 +10,8 @@ public class Nested_Switch_Case {
 
         Scanner input = new Scanner(System.in);
 
+        //-- Employee ID and Department
+
         //-- Taking Employee ID Input 
         System.out.print("Enter Employee ID :- ");
         int empID = input.nextInt();
