@@ -194,10 +194,11 @@ public class Restaurant_Billing_System {
 
                 
 
-                System.out.println("Item Name : " + itemName);
+                
                 
                  if (qty > 0) {
                                
+                    System.out.println("Item Name : " + itemName);
                     totalBill = totalBill + totPrice;
                     totQty = totQty + qty;
                     System.out.println("Total Qty : " + totQty);
