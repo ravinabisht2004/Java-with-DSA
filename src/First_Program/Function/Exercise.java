@@ -21,7 +21,7 @@ public class Exercise {
 
         //-- greater of two numbers.
 
-        System.out.print("Enter First Number : ");
+       /*  System.out.print("Enter First Number : ");
         int number1 = input.nextInt();
     
         System.out.print("Enter Second Number : ");
@@ -29,11 +29,27 @@ public class Exercise {
 
         int greaterResult = greaterTwoNo(number1, number2);
 
-        System.out.println("Greater Number : " + greaterResult);
+        System.out.println("Greater Number : " + greaterResult);*/
+
+        //-- prints whether the student is Pass or Fail.
+
+        System.out.print("Enter your marks : ");
+
+        int marks = input.nextInt();
+
+        
+        int failPass = grade(marks);
+
+        if (failPass >= 33){
+            System.out.println("Pass");
+        }else{
+            System.out.println("Fail");
+        }
+
+        
 
 
-
-
+        input.close();
 
         
         
@@ -57,6 +73,17 @@ public class Exercise {
         }
 
         return result;
+        
     }
+
+    static int grade(int marks){
+
+       return marks;
+        
+
+
+    }
+
+    
     
 }
