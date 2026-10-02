@@ -216,12 +216,14 @@ public class Restaurant_Billing_System {
             
 
             
-
+            
             
             
            
             
         }
+
+        input.close();
 
         
         
