@@ -30,6 +30,8 @@ public class Simple_Interest {
 
         System.out.println("Simple Interest : " + simpleIntResult);
 
+        input.close();
+
 
         
     }
