@@ -32,15 +32,10 @@ public class Checking_Number_Type {
 
             System.out.println("Number is Positive");
 
-        }else if (number < 0){
-
-            System.out.println("Number is Negative");
-
         }else{
 
-            System.out.println("Invalid Number");
-
-        };
+            System.out.println("Number is Negative");
+    }
 
     }
     
