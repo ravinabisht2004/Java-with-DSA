@@ -18,6 +18,7 @@ public class Restaurant_Billing_System {
 
         int totQty   = 0;
         
+        
 
         while (value) {
 
@@ -181,7 +182,13 @@ public class Restaurant_Billing_System {
 
                 case 4 -> {
                     value = false;
+                    System.out.print("Location : ");
+                    input.nextLine();
+                    String placeOrder = input.nextLine();
+
+                    System.out.println("Order Placed At : " + placeOrder);
                     System.out.println("Total Bill : " + totalBill);
+                    System.out.println("Your order will arrive at 10 minutes.");
                 }
 
 

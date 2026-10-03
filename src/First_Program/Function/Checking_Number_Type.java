@@ -37,6 +37,6 @@ public class Checking_Number_Type {
             System.out.println("Number is Negative");
     }
 
-    }
+    } 
     
 }
