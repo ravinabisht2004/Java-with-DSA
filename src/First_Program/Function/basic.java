@@ -26,6 +26,7 @@ public class basic {
 
         System.out.println(sumFunction);
 
+        input1.close();
         
         
     }
@@ -43,8 +44,10 @@ public class basic {
         int sum = num + num2;
 
         return sum;
-    }
 
+        
+    }
+    
     static String greeting(){
         String msg = "Hello, miss Ravina";
 
@@ -66,7 +69,9 @@ public class basic {
 
         return sum;
         
+        
     }
 
+    
 
 }

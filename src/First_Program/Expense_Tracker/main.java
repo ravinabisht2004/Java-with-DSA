@@ -92,6 +92,9 @@ public class main {
         }
         
         
+        input.close();
+        
     }
+    
     
 }
