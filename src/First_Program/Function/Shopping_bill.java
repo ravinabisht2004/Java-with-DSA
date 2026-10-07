@@ -17,18 +17,22 @@ public class Shopping_bill{
 
         while (value) {
 
-            System.out.print("Enter Item : ");
-            String item = input.next();
+           System.out.print("Enter Item : ");
+            String item = input.nextLine();
 
             System.out.print("Enter Price : ");
             int price = input.nextInt();
 
+            // Consume leftover Enter
+            input.nextLine();
+
+            
             total = addItem(item, price, total);
-            System.out.println(totalPrice);
+            System.out.println(total);
 
 
             System.out.print("Add another item : ");
-            String user = input.next();
+            String user = input.nextLine();
 
             if (user.equals("No")) {
                 value = false;
@@ -41,7 +45,7 @@ public class Shopping_bill{
             
 
         
-
+        input.close();
 
     };
 
