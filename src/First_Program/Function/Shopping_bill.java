@@ -11,7 +11,7 @@ public class Shopping_bill{
        
 
         int total = 0;
-        int totalPrice = 0;
+        
 
         boolean value = true;
 
@@ -26,7 +26,7 @@ public class Shopping_bill{
             // Consume leftover Enter
             input.nextLine();
 
-            
+
             total = addItem(item, price, total);
             System.out.println(total);
 
@@ -34,7 +34,7 @@ public class Shopping_bill{
             System.out.print("Add another item : ");
             String user = input.nextLine();
 
-            if (user.equals("No")) {
+            if (user.equalsIgnoreCase("No")) {
                 value = false;
                 
                 
