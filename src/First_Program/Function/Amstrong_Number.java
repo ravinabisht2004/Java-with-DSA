@@ -8,10 +8,20 @@ public class Amstrong_Number {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter the number : ");
-        int number = input.nextInt();
+        // System.out.print("Enter the number : ");
+        // int number = input.nextInt();
 
-        System.out.println(amstrongNum(number));
+        // System.out.println(amstrongNum(number));
+
+        for (int i = 100; i < 1000; i++) {
+          
+            if(amstrongNum(i)){
+                System.out.println(i);
+            };
+
+        };
+
+        input.close();
 
     };
 
