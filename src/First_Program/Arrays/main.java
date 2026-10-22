@@ -47,5 +47,13 @@ public class main {
 
         //array of object 
 
+        String[] str1 = new String[4];
+
+        for(int i = 0; i < str1.length;  i++){
+            str1[i] = input.next();
+        }
+
+        System.out.println(Arrays.toString(str1));
+
     };
 };
