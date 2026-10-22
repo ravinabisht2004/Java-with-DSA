@@ -1,5 +1,7 @@
 package First_Program.Arrays;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class main {
@@ -17,22 +19,33 @@ public class main {
 
         int arr[]  = new int[5];
 
+        //array of primitives 
+
         arr[0] = 13;
         arr[1] = 10;
         arr[2] = 900;
         arr[3] = 345;
         arr[4] = 989;
 
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = input.nextInt();                     
-        };
+        System.out.println(Arrays.toString(arr));
 
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + "  ");            
-        };
+        // for (int i = 0; i < arr.length; i++) {
+        //     arr[i] = input.nextInt();                     
+        // };
+
+        // for (int i = 0; i < arr.length; i++) {
+        //     System.out.print(arr[i] + "  ");            
+        // };
 
         
-        
+        // for(int num : arr){ //for every element in array, print the element
+        //     System.out.println(num + ' '); // here num represents element of the array.
+        // };
+
+        //System.out.println(arr[5]); //index out of bound error
+
+
+        //array of object 
 
     };
 };
