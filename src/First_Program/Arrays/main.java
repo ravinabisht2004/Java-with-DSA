@@ -1,6 +1,6 @@
 package First_Program.Arrays;
 
-import java.lang.reflect.Array;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -55,10 +55,12 @@ public class main {
 
         System.out.println(Arrays.toString(str1));
         str1[0] = "ravina";
-        
+
         //changing original object 
 
         System.out.println(Arrays.toString(str1));
+
+        input.close();
 
     };
 };
