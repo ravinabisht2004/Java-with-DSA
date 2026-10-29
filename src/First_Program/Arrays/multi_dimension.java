@@ -21,22 +21,38 @@ public class multi_dimension {
 
         //input 
 
-        System.out.println( arr2D.length);
+        //System.out.println( arr2D.length);
 
-        for(int i = 0; i < arr2D.length; i++ ){
-            for(int j = 0; j < arr2D[i].length ; j++){
+        int [] [] arr = new int [3] [3];
 
-                System.out.println( "row " + i);
-                System.out.println("col " + j);
-                arr2D[i][j] = input.nextInt();
-                
+        for(int i = 0; i < arr.length; i++ ){
+            for(int j = 0; j < arr[i].length ; j++){
 
+                //System.out.println( "row " + i);
+                //System.out.println("col " + j);
+                arr[i][j] = input.nextInt();
+                System.out.print(arr[i][j] + " ");          
             };
-
+            System.out.println();
             
         };
 
-        System.out.println(Arrays.deepToString(arr2D));
+        // System.out.println(Arrays.deepToString(arr));
+
+        //  for(int i = 0; i < arr.length; i++ ){        
+
+        //         //System.out.println( "row " + i);
+        //         //System.out.println("col " + j);
+                
+        //         //It's taking user input from upper loop its working only to print array.
+        //        System.out.println(Arrays.toString(arr[i]));            
+        // };
+
+        for(int [] a : arr){
+            System.out.println(Arrays.toString(a));
+        };
+
+        
 
     };
 };
