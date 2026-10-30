@@ -47,6 +47,8 @@ public class arrayList {
 
         System.out.println(arrList);
 
+        input.close();
+
 
 
 
