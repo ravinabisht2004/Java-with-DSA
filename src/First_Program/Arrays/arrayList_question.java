@@ -53,12 +53,47 @@ public class arrayList_question {
         number.add(1);
         number.add(2);
         number.add(3);
-        number.add(4);
+        number.add(14);
         number.add(5);
 
-        System.out.print("Please enter the value : ");
-        System.out.println(number.contains(input.nextInt()));
+        //System.out.print("Please enter the value : ");
+        //System.out.println(number.contains(input.nextInt()));
 
+        //Find the Largest Number
+        //Create an ArrayList of integers and find the largest number.
+
+        int max = number.get(0);
+
+        for (int index = 0; index < 5; index++) {
+
+            if (number.get(index) > max) {
+
+                max = number.get(index);
+                
+            };
+
+           
+            
+        };
+
+        System.out.println("Max value : " +max);
+
+        
+
+        //Update an Element
+        //Create an ArrayList of 5 city names. Replace the second city with a new city name.
+
+        ArrayList<String> city = new ArrayList<>();
+
+        city.add("New Delhi");
+        city.add("Old Delhi");
+        city.add("Ramnagar");
+        city.add("Gopalganj");
+        city.add("Jaladhpur");
+
+        city.set(1, "Gaziyabadh");
+
+        System.out.println(city);
 
     };
     
